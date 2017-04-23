@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
-    "lint": "tslint 'src/**/*.t*'"
+    "lint": "tslint --project tsconfig.json"
   },
   "jest": {
     "moduleFileExtensions": [
