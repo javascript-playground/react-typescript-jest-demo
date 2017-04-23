@@ -1,0 +1,42 @@
+{
+  "name": "interactive-react-introduction",
+  "version": "0.1",
+  "main": "index.js",
+  "author": "Jack Franklin",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "setupTestFrameworkScriptFile": "./test/setup.ts",
+    "testRegex": "/*.spec.(ts|tsx|js)$"
+  },
+  "dependencies": {
+    "@types/jest": "^19.2.2",
+    "@types/react": "^15.0.22",
+    "@types/react-dom": "^15.5.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^19.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "ts-jest": "^19.0.10",
+    "ts-loader": "^2.0.3",
+    "tslint": "^5.1.0",
+    "tslint-react": "^2.6.0",
+    "typescript": "2.3",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4",
+    "webpack-notifier": "^1.5.0"
+  }
+}
