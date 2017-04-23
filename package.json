@@ -5,7 +5,8 @@
   "author": "Jack Franklin",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "lint": "tslint 'src/**/*.t*'"
   },
   "jest": {
     "moduleFileExtensions": [
